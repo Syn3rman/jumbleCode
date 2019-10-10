@@ -1,0 +1,21 @@
+# dotenv environment variables file
+.env
+.env.test
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+*.swp
+
+node_modules/
