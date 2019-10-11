@@ -2,31 +2,31 @@
     "cards": [
           {
             "id": 6,
-            "text": " n = n/10;\n}"
+            "text": "\t\t\tn = n/10;\n\t\t}"
           },
           {
             "id": 3,
-            "text": "while(n>0)\n{"
+            "text": "\t\twhile(n>0)\n{"
           },
           {
             "id": 1,
-            "text": "import java.util.Scanner;\npublic class Palin {\npublic static void main(String args[])\n{"
+            "text": "import java.util.Scanner;\npublic class Palin {\n\tpublic static void main(String args[])\n\t{"
           },
           {
             "id": 4,
-            "text": "r = n % 10;"
+            "text": "\t\t\tr = n % 10;"
           },
           {
             "id": 2,
-            "text":"Scanner in = new Scanner(System.in);\nSystem.out.print(\"Input a number: \");\nint n = in.nextInt();\nint sum = 0, r;\nint temp = n; "
+            "text":"\t\tScanner in = new Scanner(System.in);\n\t\tSystem.out.print(\"Input a number: \");\n\tint n = in.nextInt();\nint sum = 0, r;\n\tint temp = n; "
           },
           {
             "id": 7,
-            "text": "if(temp==sum)\nSystem.out.println(\"It is a Palindrome number.\");\nelse\nSystem.out.println(\"Not a palindrome\");\n}\n}"
+            "text": "\t\tif(temp==sum)\n\t\t\tSystem.out.println(\"It is a Palindrome number.\");\n\t\telse\n\t\t\tSystem.out.println(\"Not a palindrome\");\n}\n}"
           },
      {
             "id": 5,
-            "text": "sum = (sum*10)+r;"
+            "text": "\t\t\tsum = (sum*10)+r;"
           }
     
         ],

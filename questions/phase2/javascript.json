@@ -3,7 +3,7 @@
  {
         "id": 5,
         "text":
-          " num_array.push(new_num)}"
+          " num_array.push(new_num)\n}"
       },
      
       {

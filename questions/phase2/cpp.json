@@ -2,7 +2,7 @@
     "cards": [
     {
             "id": 5,
-            "text": "if (isPrime)\ncout << \"This is a prime number\";"
+            "text": "if (isPrime)\n\tcout << \"This is a prime number\";"
           },
     {
             "id": 2,
@@ -14,7 +14,7 @@
           },
          {
             "id": 6,
-            "text": "else\ncout << \"This is not a prime number\";"
+            "text": "else\n\tcout << \"This is not a prime number\";"
           },
           {
             "id": 3,
@@ -22,15 +22,15 @@
           },
           {
             "id": 4,
-            "text": "for(i = 2; i <= n / 2; ++i){\nif(n % i == 0){\nisPrime = false;\nbreak;\n}\n}"
+            "text": "for(i = 2; i <= n / 2; ++i){\n\tif(n % i == 0){\n\tisPrime = false;\n\tbreak;\n}\n}"
           },
          {
            "id": 7,
-           "text":"return 0;"
+           "text":"return 0;\n}"
     }
         ],
     
     "inputTestcases":"7",
-    "outputTestCases":"This is a Prime Number"
+    "outputTestcases":"This is a Prime Number"
     }
     

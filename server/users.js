@@ -112,24 +112,6 @@ router.post('/login', async (req, res)=>{
       success: false,
     });
   }
-  // if(round1name){
-  //   if(req.body.password === "Crackathon2k19"){
-  //     req.session.round1 = round1name;
-  //     res.json({
-  //       msg: 'Login successful',
-  //     });  
-  //   }    
-  //   else{
-  //     res.json({
-  //       msg: 'Login failed',
-  //     });
-  //   } 
-  // }
-  // else{
-  //   res.json({
-  //     msg: 'round1name missing',
-  //   });
-  // }
 });
 
 router.get('/logout', (req, res)=>{
