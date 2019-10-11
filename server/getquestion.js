@@ -17,7 +17,7 @@ function isLoggedIn(req, res, next){
   }
 }
 
-router.post('/', isLoggedIn, (req, res)=>{
+router.post('/', (req, res)=>{
   const language = req.body.language;
   // change number between sessions/phases
   let number = 1;
