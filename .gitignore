@@ -2,6 +2,8 @@
 .env
 .env.test
 
+secrets.js
+
 # Output of 'npm pack'
 *.tgz
 
