@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Jumble code",
   "main": "app.js",
-  "start": "node app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Aditya, Nachiket",
   "license": "ISC",
