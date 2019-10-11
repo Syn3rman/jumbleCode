@@ -1,0 +1,30 @@
+{
+    "cards": [
+          {
+            "id": 2,
+            "text": "const anim_array = animals.split(' ');"
+          },
+          {
+            "id": 5,
+            "text":
+              "document.write(anim_array + '<br>');"
+          },
+          {
+            "id": 1,
+            "text": "var animals = 'Dog Cat Lion';"
+          },
+          
+         
+          {
+            "id": 4,
+            "text": "anim_array.pop();\nanim_array.push('Rabbit')"
+          },
+     {
+            "id": 3,
+            "text": "anim_array.push('Tiger');\ndocument.write(anim_array + '<br>');"
+          }
+        ],
+    "inputTestcases": " ",
+    "outputTestCases": "Dog,Cat,Lion,Tiger\nDog,Cat,Lion,Rabbit"    
+}
+    

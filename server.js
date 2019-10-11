@@ -6,7 +6,6 @@ const cors = require('cors');
 app.use(cookieParser());
 // Use heroku env variable or port 7000
 const port = process.env.PORT || 7000;
-app.listen(port,function(){console.log('Hey, listening on port %s', port);});
 
 app.set('trust proxy',true);
 
@@ -30,4 +29,6 @@ app.use(express.urlencoded({extended:false}));
 
 app.use(cors());
 // Routes
-app.use('/',require('./server'));
+app.use('/', require('./server/'));
+
+app.listen(port,function(){console.log('Hey, listening on port %s', port);});

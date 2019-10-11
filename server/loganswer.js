@@ -1,6 +1,6 @@
-const express = require('express');
-const router = express.Router();
-const dbs = require('./dbconnection');
+  const express = require('express');
+  const router = express.Router();
+  const dbs = require('./dbconnection');
 
 function isLoggedIn(req, res, next){
   console.log(req.session, req.session.user)

@@ -2,9 +2,6 @@ const express = require('express');
 const router = express.Router();
 const dbs = require('./dbconnection');
 
-// teamId, password
-// email, team id, phone, password, (score)
-
 // router.post('/newround1', async (req, res)=>{
 //   const db = await dbs.get();
 //   const crackathon = await db.db('crackathon');
@@ -83,7 +80,7 @@ router.post('/login', async (req, res)=>{
               res.sendStatus(500);
             }
             else{
-              console.log("Sup dawg",result);
+              req.session.user=email;
               res.json({
                 msg: "Logged in successfully",
                 success: true,
