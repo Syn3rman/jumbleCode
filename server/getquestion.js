@@ -20,12 +20,9 @@ function isLoggedIn(req, res, next){
 router.post('/', (req, res)=>{
   const language = req.body.language;
   // change number between sessions/phases
-  let number = 1;
+  let number = 2;
   filePath = `${__dirname}/../questions/phase${number}/${language}.json`;
-  // let contents = fs.readFileSync(filePath, 'utf8');
-  // contents = JSON.parse(JSON.stringify(contents));
-  // console.log(contents);
-  res.json(require(`../questions/phase1/${language}.json`));  
+  res.json(require(`../questions/phase${number}/${language}.json`));  
 });
 
 module.exports = router;

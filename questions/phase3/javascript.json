@@ -1,0 +1,28 @@
+{
+  "cards": [
+        {
+          "id": 2,
+          "text": "nums = nums.split(' ')\nvar sum = 0;"
+        },
+  {
+          "id": 4,  
+          "text": "num = parseInt(num, 10)\nsum += num})"
+        },
+   {
+          "id": 5,
+          "text":
+            "document.write('Sum of the given ' + nums.length + ' numbers is ' + sum"
+        },
+        {
+          "id": 3,
+          "text": "nums.forEach( function (num){"
+        },
+        {
+          "id": 1,
+          "text": "var nums = prompt('Enter numbers separated by a space')"
+        }       
+      ],
+  "inputTestcases": "4 6 3 8",
+  "outputTestcases":"Sum of the given 4 numbers is 21"  
+}
+  

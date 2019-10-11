@@ -1,0 +1,36 @@
+{
+"cards": [
+ {
+        "id": 5,
+        "text":
+          " num_array.push(new_num)}"
+      },
+     
+      {
+        "id": 2,
+        "text": "var num_array = [0, 1]"
+      },
+      {
+        "id": 3,
+        "text": "for (i = 1; i <= limit; i++){"
+      },
+{
+        "id": 6,
+        "text":
+          "document.write(num_array)"
+      },
+
+      {
+        "id": 4,
+        "text": "new_num = num_array[i-1] + num_array[i]"
+      },
+      {
+        "id": 1,
+        "text": "var limit = Number(prompt())"
+      }
+    ],
+"inputTestcases": "4",
+"outputTestcases": "0, 1, 1, 2, 3, 5"
+
+}
+

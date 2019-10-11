@@ -1,0 +1,37 @@
+{
+  "cards": [
+       {
+          "id": 5,
+          "text":"N = 12\nprint(findMaximumHeight(N))"
+        },
+             {
+          "id": 2,
+          "text": "\twhile (x - y > e):\n\t\tx = (x + y) / 2\n\t\ty = n / x"
+        },
+    
+  
+  
+  {
+          "id": 1,
+          "text": "def squareRoot(n):\n\tx = n\n\ty = 1\n\te = 0.000001"
+        },
+  
+  
+        {
+          "id": 3,
+          "text": "\treturn y\ndef findMaximumHeight(N):\n\tn = 1 + 8 * N"
+        },
+        {
+          "id": 4,
+          "text":"\tmaxH = (-1 + squareRoot(n)) / 2\n\treturn int(maxH)"
+      
+  
+        }
+   
+  
+        
+      ],
+  
+  "inputTestcases":"",
+  "outputTestcases":"4"
+  }

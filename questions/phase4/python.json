@@ -1,0 +1,40 @@
+
+{
+  "cards": [
+               {
+          "id": 4,
+          "text": "            print(s[i: len])"
+        },
+        {
+          "id": 2,
+          "text": "    for i in range(n):"
+        },
+  
+  {
+          "id": 1,
+          "text": "def subString(s, n)"
+        },
+  
+      
+        {
+          "id": 5,
+          "text":
+            "s = 'abcd'"
+        },
+  
+   {
+          "id": 3,
+          "text": "        for len in range(i+1,n+1):"
+        },
+  
+        {
+          "id": 6,
+          "text":
+            "subString(s,len(s))"
+        }
+  
+        
+      ],
+  "inputTestcases":"",
+  "outputTestcases":"a,ab,abc,abcd,b,bc,bcd,c,cd,d"
+  }

@@ -1,0 +1,35 @@
+{
+  "cards": [
+   {
+          "id": 5,
+          "text":
+            "for (var i = 0; i < num_of_angles; i++){\nlet angle = Math.round(Math.asin(Math.random()) * 180 / Math.PI)",
+        },
+       
+        {
+          "id": 2,
+          "text": "num_of_angles = parseInt(num_of_angles, 10)"
+        },
+        {
+          "id": 3,
+          "text": "if(Number.isNaN(num_of_angles)){\ndocument.write('Please enter an integer')\n}"
+        },
+  {
+          "id": 6,
+          "text":
+            "document.write(angle + '<br />')"
+        },
+  
+        {
+          "id": 4,
+          "text": "else{\ndocument.write('Printing ' + num_of_angles + ' random angles: <br />')"
+        },
+        {
+          "id": 1,
+          "text": "num_of_angles = prompt('Enter number of random angles to print')"
+        }
+      ],
+  "inputTestcases": "7",
+  "outputTestcases":"Printing 7 random angles:\n66\n45\n10\n48\n64\n49\n7"
+  }
+  
