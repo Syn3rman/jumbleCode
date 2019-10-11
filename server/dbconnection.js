@@ -1,5 +1,7 @@
 const MongoClient = require('mongodb').MongoClient;
-const { password } = require('../secrets.js');
+// const { password } = require('../secrets.js');
+
+const password = process.env.PASSWORD || require('../secrets.js').password;
 
 
 const mongourl=`mongodb://codecell:${password}@ds333768.mlab.com:33768/crackathon`;
