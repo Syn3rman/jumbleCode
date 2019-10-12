@@ -60,6 +60,7 @@ router.post('/login', async (req, res)=>{
     participants
     .findOne({teamId})
     .then((result, err)=>{
+      console.log(result);
       if(err){
         console.log(err);
         res.sendStatus(500);
