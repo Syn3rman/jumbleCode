@@ -67,6 +67,7 @@ router.post('/login', async (req, res)=>{
       if(result){
         console.log(result);
         console.log("team id matches", result);
+        console.log(password, result.password, password===result.password);
         if(password === result.password){
           console.log("password matches");
           round1
