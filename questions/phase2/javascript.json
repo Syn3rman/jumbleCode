@@ -1,32 +1,27 @@
 {
 "cards": [
  {
-        "id": 5,
+        "id": 4,
         "text":
           " num_array.push(new_num)\n}"
       },
-     
       {
         "id": 2,
-        "text": "var num_array = [0, 1]"
-      },
-      {
-        "id": 3,
         "text": "for (i = 1; i <= limit; i++){"
       },
-{
-        "id": 6,
+      {
+        "id": 5,
         "text":
           "document.write(num_array)"
       },
 
       {
-        "id": 4,
+        "id": 3,
         "text": "new_num = num_array[i-1] + num_array[i]"
       },
       {
         "id": 1,
-        "text": "var limit = Number(prompt())"
+        "text": "var limit = Number(prompt())\nvar num_array = [0, 1]"
       }
     ],
 "inputTestcases": "4",

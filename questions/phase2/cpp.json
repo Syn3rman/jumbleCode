@@ -22,7 +22,7 @@
           },
           {
             "id": 4,
-            "text": "for(i = 2; i <= n / 2; ++i){\n\tif(n % i == 0){\n\tisPrime = false;\n\tbreak;\n}\n}"
+            "text": "for(i = 2; i <= n / 2; ++i){\n\tif(n % i == 0){\n\tisPrime = false;\n\tbreak;\n\t}\n}"
           },
          {
            "id": 7,
