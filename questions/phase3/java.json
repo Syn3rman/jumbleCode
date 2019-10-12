@@ -19,29 +19,19 @@
         },
         {
             "id": 3,
-            "text":"\t\tint i;f or (i = 0; i < str1.length(); i++)
-       (ctr[str1.charAt(i)]) ++;
-    ",
-          },
-          {
+            "text":"\t\tint i;\n\t\tfor (i = 0; i < str1.length(); i++)\n\t\t\t(ctr[str1.charAt(i)]) ++;"
+        },
+        {
             "id": 5,
-            "text": "if (ctr[i] > ctr[ctr_first]) {
-        ctr_second = ctr_first;
-    ",
-          },
-           {
+            "text": "\t\tif (ctr[i] > ctr[ctr_first]) {\n\t\t\tctr_second = ctr_first;"
+        },
+        {
             "id": 2,
-            "text": "static final int NOOFCHARS = 256;
-     static char get2ndMostFreq(String str1) {
-    
-      int[] ctr = new int[NOOFCHARS];
-    ",
-          },
-          {
+            "text": "\tstatic final int NOOFCHARS = 256;\n\tstatic char get2ndMostFreq(String str1) {\n\t\tint[] ctr = new int[NOOFCHARS];"
+        },
+        {
             "id": 6,
-            "text": "
-        ctr_first = i;
-       } else if (ctr[i] > ctr[ctr_second] && ctr[i] != ctr[ctr_first])
+            "text": "\t\t\tctr_first = i;\n\t\t}\n\t\t else if (ctr[i] > ctr[ctr_second] && ctr[i] != ctr[ctr_first])
         ctr_second = i;
       }
       return (char) ctr_second;
