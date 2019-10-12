@@ -31,18 +31,11 @@
         },
         {
             "id": 6,
-            "text": "\t\t\tctr_first = i;\n\t\t}\n\t\t else if (ctr[i] > ctr[ctr_second] && ctr[i] != ctr[ctr_first])
-        ctr_second = i;
-      }
-      return (char) ctr_second;
-     }
-    ",
-          },
+            "text": "\t\t\tctr_first = i;\n\t\t}\n\t\t else if (ctr[i] > ctr[ctr_second] && ctr[i] != ctr[ctr_first])\n\t\t\tctr_second = i;\n\t\t}\n\t\treturn (char) ctr_second;\n\t}"
+        }
     
         ],
-    inputTestcases:’ successes’,
-    outputTestcases:’The given string is: successes
-        The second most frequent char in the string is: c
-    ’,
+            "inputTestcases":" successes",
+            "outputTestcases":"The given string is: successes\nThe second most frequent char in the string is: c"
     }
     
