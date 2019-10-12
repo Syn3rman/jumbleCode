@@ -1,0 +1,33 @@
+{
+    "cards": 
+    [
+          {
+            "id": 2,
+            "text": "\tint a, b, c, d;\n\tcout << “Enter the angles:”;"
+          },
+          {
+            "id": 1,
+            "text": "#include <iostream>\nusing namespace std;\nint main(){"
+          },
+          {
+            "id": 4,
+            "text": "\tif ((a + b + c + d )== 360)\n\t\tcout << \"Valid quadilateral\";"
+          },
+          {
+            "id": 6,
+            "text": "\treturn 0;"
+          },
+          {
+            "id": 3,
+            "text": "\tcin >> a;\n\tcin >> b;\n\tcin >> c;\n\tcin >> d;"
+          },
+    
+          {
+            "id": 5,
+            "text":"\telse\n\t\tcout << "Inval"id" quadilateral";"
+          }
+        ],
+        "inputTestcases":"Enter the angles: 30 60 90 80",
+        "outputTestcases":"Invalid quadrilateral"
+    }
+    

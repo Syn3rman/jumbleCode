@@ -1,0 +1,36 @@
+{
+    "cards": 
+    [
+        {
+            "id": 4,
+            "text": "\t\tfor (int j = rows-1; j>=i; j--)\n\t\t{\n\t\t\tSystem.out.print(\" \");\n\t\t}"
+        },
+        {
+            "id": 7,
+            "text": "\t\t\tSystem.out.println();\n\t\t}\n\t}\n}"
+        },
+        {
+            "id": 2,
+            "text": "Scanner scanner = new Scanner(System.in);\n\t\tSystem.out.println(\"Enter the number of rows needed to print the pattern \");\n\t\tint rows = scanner.nextInt();"
+        },
+        {
+            "id": 6,
+            "text": "if( i == 1 || i == rows || k == 1 || k == rows  )\n\t\tSystem.out.print(\"*\");\n\telse\n\t\tSystem.out.print(\" \");\n\t}"
+        },
+        {
+            "id": 1,
+            "text":"import java.util.Scanner;\npublic class Pattern\n{\n\tpublic static void main(String[] args)\n{"
+        },
+        {
+            "id": 3,
+            "text": "\t\tSystem.out.println(\"## Printing the pattern ##\");\n\t\tfor (int i = 1; i <= rows; i++)\n\t\t"
+        },
+        {
+            "id": 5,
+            "text": "\t\tfor (int k = 1; k <= rows; k++)\n\t\t{"
+        }
+        ],
+            "inputTestcases":"5",
+            "outputTestcases":"## Printing the pattern ##\n*****\n*   *\n*   *\n*   *\n*****"
+    }
+    

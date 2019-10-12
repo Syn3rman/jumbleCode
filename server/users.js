@@ -50,13 +50,13 @@ router.post('/login', async (req, res)=>{
   const db = await dbs.get();
   const crackathon = await db.db('crackathon');
   const round1 = crackathon.collection('round1');
-  const predinedPasswords = crackathon.collection('predefinedPasswords');
+  const predinedPasswords = crackathon.collection('participants');
   const teamId = req.body.teamId;
   const password = req.body.password;
   const email = req.body.email;
   const phone = req.body.phone;
   if(teamId){
-    predinedPasswords
+    participants
     .findOne({teamId})
     .then((result, err)=>{
       if(err){

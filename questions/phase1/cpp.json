@@ -1,0 +1,46 @@
+{
+    "cards": [
+    {
+            "id": 4,
+            "text": "   discriminant = b*b - 4*a*c;"
+    },
+    {
+            "id": 9,
+            "text":"}"
+    },
+    {
+            "id": 1,
+            "text": "#include <iostream>\n#include <cmath>\nusing namespace std;"
+    },
+    {
+            "id": 5,
+            "text":
+              "    if (discriminant > 0) {\n\tx1 = (-b + sqrt(discriminant)) / (2*a);\n\tx2 = (-b - sqrt(discriminant)) / (2*a);\n\tcout << \"Roots are real and different.\" << endl;\n\tcout << \"x1 = \" << x1 << endl;\n\tcout << \"x2 = \" << x2 << endl;\n}"
+    },
+    {
+          "id": 8,
+          "text":"\treturn 0;"
+    },
+     {
+           "id": 7,
+           "text":"\telse {\n\trealPart = -b/(2*a);\n\timaginaryPart =sqrt(-discriminant)/(2*a);\n\tcout << \"Roots are complex and different.\"  << endl;\n\tcout << \"x1 = \" << realPart << \"+\" << imaginaryPart << \"i\" << endl\n\tcout << \"x2 = \" << realPart << \"-\" << imaginaryPart << \"i\" << endl;\n}"
+    },
+          {
+            "id": 3,
+            "text": "  float a, b, c, x1, x2, discriminant, realPart, imaginaryPart;\ncout << \"Enter coefficients a, b and c: \";\ncin >> a >> b >> c;"
+          },
+         {
+            "id": 6,
+            "text": "\telse if (discriminant == 0) {\n\tcout << \"Roots are real and same.\" << endl;\n\tx1 = (-b + sqrt(discriminant)) / (2*a);\n\tcout << \"x1 = x2 =\" << x1 << endl;\n};"
+    },
+    {
+            "id": 2,
+            "text": "int main()\n{"
+    }
+        ],
+    
+    "inputTestcases":"Enter coefficients a, b and c: 1 -5 6",
+    "outputTestCases":"Roots are real and different\nx1 = 3\nx2 = 2"
+    
+    }
+    

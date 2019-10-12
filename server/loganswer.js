@@ -21,10 +21,12 @@ router.post('/', async (req, res)=>{
   const round1 = crackathon.collection('round1');
   const team = req.body.team;
   const score = req.body.score;
+  const time = req.body.time;
   round1
   .insertOne({
     team,
-    score
+    score,
+    time,
   })
   .then((result, err)=>{
     if(err){

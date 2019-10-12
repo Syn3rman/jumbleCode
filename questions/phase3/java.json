@@ -1,0 +1,58 @@
+{
+    "cards": 
+    [
+        {
+            "id": 7,
+            "text": "\tpublic static void main(String args[]) {\n\t\tString str1 = \"successes\";\n\t\tSystem.out.println(\"The given string is: \" + str1);\n\t\tchar res = get2ndMostFreq(str1);"
+        },
+        {
+            "id": 4,
+            "text": "\t\tint ctr_first = 0, ctr_second = 0;\n\t\tfor (i = 0; i < NOOFCHARS; i++) {"
+        },
+        {
+            "id": 1,
+            "text": "import java.util.*;\npublic class ScndFrqnt {"
+        },
+        {
+            "id": 8,
+            "text": "\n\t\tif (res != \"\\0\")\n\t\t\tSystem.out.println(\"The second most frequent char in the string is: \" + res);\n\t\telse\n\t\t\tSystem.out.println(\"No second most frequent character found in the string.\");\n\t\t}\n\t}"
+        },
+        {
+            "id": 3,
+            "text":"\t\tint i;f or (i = 0; i < str1.length(); i++)
+       (ctr[str1.charAt(i)]) ++;
+    ",
+          },
+          {
+            "id": 5,
+            "text": "if (ctr[i] > ctr[ctr_first]) {
+        ctr_second = ctr_first;
+    ",
+          },
+           {
+            "id": 2,
+            "text": "static final int NOOFCHARS = 256;
+     static char get2ndMostFreq(String str1) {
+    
+      int[] ctr = new int[NOOFCHARS];
+    ",
+          },
+          {
+            "id": 6,
+            "text": "
+        ctr_first = i;
+       } else if (ctr[i] > ctr[ctr_second] && ctr[i] != ctr[ctr_first])
+        ctr_second = i;
+      }
+      return (char) ctr_second;
+     }
+    ",
+          },
+    
+        ],
+    inputTestcases:’ successes’,
+    outputTestcases:’The given string is: successes
+        The second most frequent char in the string is: c
+    ’,
+    }
+    
