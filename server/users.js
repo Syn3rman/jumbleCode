@@ -51,10 +51,11 @@ router.post('/login', async (req, res)=>{
   const crackathon = await db.db('crackathon');
   const round1 = crackathon.collection('round1');
   const participants = crackathon.collection('participants');
-  const teamId = req.body.teamId;
+  const teamId = req.body.username;
   const password = req.body.password;
   const email = req.body.email;
   const phone = req.body.phone;
+  console.log("Hii");
   if(teamId){
     participants
     .findOne({teamId})
