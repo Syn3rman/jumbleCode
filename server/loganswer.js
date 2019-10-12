@@ -15,7 +15,7 @@ function isLoggedIn(req, res, next){
   }
 }
 
-router.post('/', async (req, res)=>{
+router.post('/',isLoggedIn, async (req, res)=>{
   const db = await dbs.get();
   const crackathon = await db.db('crackathon');
   const round1 = crackathon.collection('round1');

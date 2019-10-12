@@ -137,19 +137,19 @@ router.get('/logout', (req, res)=>{
   });
 });
 
-router.post('/allobjs', async function(req, res) {
-  const db = await dbs.get();
-  const crackathon = await db.db('crackathon');
-  const round1 = crackathon.collection('round1');
-  round1.find({})
-    .toArray((err,result)=>{
-      if(err){
-        console.log(err);
-      }
-      else{
-        res.json(result);
-      }
-    });
-});
+// router.post('/allobjs', async function(req, res) {
+//   const db = await dbs.get();
+//   const crackathon = await db.db('crackathon');
+//   const round1 = crackathon.collection('round1');
+//   round1.find({})
+//     .toArray((err,result)=>{
+//       if(err){
+//         console.log(err);
+//       }
+//       else{
+//         res.json(result);
+//       }
+//     });
+// });
 
 module.exports = router;
